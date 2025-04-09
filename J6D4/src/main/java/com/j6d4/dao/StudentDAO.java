@@ -12,7 +12,7 @@ import com.j6d4.bean.StudentMap;
 public class StudentDAO {
 	RestTemplate rest = new RestTemplate();
 	
-	String url = "https://poly-java6-a9b73-default-rtdb.firebaseio.com/students.json";
+	String url = "https://java6-ed96a-default-rtdb.firebaseio.com/students.json";
 	private String getUrl(String key) {
 		return url.replace(".json", "/" + key + ".json");
 	}

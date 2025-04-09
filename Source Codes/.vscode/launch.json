@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-J6D4Application<com.j6d4-j6d4>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.j6d4.J6D4Application",
+            "projectName": "com.j6d4-j6d4",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=56211 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.j6d4-j6d4"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-J6D4Application<J6D5>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.j6d5.J6D4Application",
+            "projectName": "J6D5",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

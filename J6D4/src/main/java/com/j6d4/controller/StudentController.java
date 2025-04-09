@@ -3,7 +3,6 @@ package com.j6d4.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -11,7 +10,6 @@ import com.j6d4.bean.Student;
 import com.j6d4.bean.StudentMap;
 import com.j6d4.dao.StudentDAO;
 
-@CrossOrigin(origins = "*") 
 @Controller
 public class StudentController {
 	@Autowired
